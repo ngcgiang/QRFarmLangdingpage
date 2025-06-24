@@ -13,7 +13,7 @@ const Team: React.FC = () => {
       university: 'Đại học Khoa học Tự Nhiên TP.HCM',
       expertise: 'Phát Triển Ứng dụng Blockchain & Tích hợp AI',
       image: GiangAva,
-      bio: '',
+      bio: 'Tư duy logic, phân tích vấn đề từ trải nghiệm người dùng và định hướng ứng dụng Blockchain thực tiễn. Luôn tìm cách kết nối, chia sẻ và lan tỏa giá trị công nghệ đến cộng đồng.',
       social: {
         linkedin: '#',
         github: '#'
