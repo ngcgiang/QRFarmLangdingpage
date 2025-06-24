@@ -1,23 +1,24 @@
 import React from 'react';
-import { Leaf, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import logoImage from '../assets/img/logo_qrfarm.png';
 
 const Footer: React.FC = () => {
   const footerSections = [
     {
-      title: 'Nền Tảng',
-      links: ['Tính Năng', 'Công Nghệ', 'Bảng Giá', 'Tài Liệu API', 'Tích Hợp']
+      title: '',
+      links: []
     },
     {
-      title: 'Tài Nguyên',
-      links: ['Blog', 'Nghiên Cứu Điển Hình', 'Báo Cáo Chuyên Sâu', 'Hội Thảo Trực Tuyến', 'Trung Tâm Hỗ Trợ']
+      title: '',
+      links: []
     },
     {
-      title: 'Công Ty',
-      links: ['Về Chúng Tôi', 'Cơ Hội Nghề Nghiệp', 'Báo Chí', 'Đối Tác', 'Liên Hệ']
+      title: '',
+      links: []
     },
     {
-      title: 'Pháp Lý',
-      links: ['Chính Sách Bảo Mật', 'Điều Khoản Dịch Vụ', 'Chính Sách Cookie', 'Bảo Mật', 'Tuân Thủ']
+      title: '',
+      links: []
     }
   ];
 
@@ -36,8 +37,8 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center">
-                <Leaf className="w-7 h-7 text-white" />
+              <div className={'bg-white rounded-md'}>
+                <img src={logoImage} alt="Logo QRFarm" className="h-14 w-auto" />
               </div>
               <span className="text-2xl font-bold">QRFarm</span>
             </div>
