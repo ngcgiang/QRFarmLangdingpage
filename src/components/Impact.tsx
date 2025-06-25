@@ -6,19 +6,16 @@ const Impact: React.FC = () => {
     {
       icon: TrendingUp,
       title: 'Tăng Thu Nhập Nông Dân',
-      value: '+45%',
       description: 'Tăng thu nhập trung bình thông qua tiếp cận thị trường trực tiếp và giá bán cao cấp'
     },
     {
       icon: DollarSign,
       title: 'Giảm Chi Phí Vận Hành',
-      value: '-35%',
       description: 'Tiết kiệm chi phí nhờ tự động hóa và tối ưu hóa quản lý tài nguyên'
     },
     {
       icon: Leaf,
       title: 'Giảm Lãng Phí',
-      value: '-60%',
       description: 'Giảm lãng phí thực phẩm nhờ dự báo tốt hơn và tối ưu hóa chuỗi cung ứng'
     }
   ];
@@ -27,19 +24,16 @@ const Impact: React.FC = () => {
     {
       icon: Users,
       title: 'Niềm Tin Người Tiêu Dùng',
-      value: '95%',
       description: 'Người tiêu dùng báo cáo tăng niềm tin vào an toàn thực phẩm và chất lượng'
     },
     {
       icon: Shield,
       title: 'An Toàn Thực Phẩm',
-      value: '99.9%',
       description: 'Độ chính xác truy xuất nguồn gốc để nhận diện nhanh nguồn nhiễm bẩn'
     },
     {
       icon: Heart,
       title: 'Phát Triển Bền Vững',
-      value: '-40%',
       description: 'Minh bạch hệ thống thúc đẩy người dân sản xuất minh bạch, sạch và bền vững'
     }
   ];
@@ -77,7 +71,6 @@ const Impact: React.FC = () => {
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="font-bold text-gray-900">{impact.title}</h4>
-                      <span className="text-2xl font-bold text-green-600">{impact.value}</span>
                     </div>
                     <p className="text-gray-600 text-sm">{impact.description}</p>
                   </div>
@@ -105,7 +98,6 @@ const Impact: React.FC = () => {
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="font-bold text-gray-900">{impact.title}</h4>
-                      <span className="text-2xl font-bold text-blue-600">{impact.value}</span>
                     </div>
                     <p className="text-gray-600 text-sm">{impact.description}</p>
                   </div>

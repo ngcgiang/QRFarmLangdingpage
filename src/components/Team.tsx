@@ -4,19 +4,20 @@ import { Linkedin, Github, Twitter } from 'lucide-react';
 import GiapAvatar from '../assets/img/TanGiap.png';
 import mrsThuAvatar from '../assets/img/mrsThu.png';
 import GiangAva from '../assets/img/GiangAva1.png';
+import MinhAva from '../assets/img/MinhAva.png';
 
 const Team: React.FC = () => {
   const teamMembers = [
     {
-      name: 'Nguyễn Ngọc Giang',
-      position: 'Chuyên ngành Kỹ thuật phần mềm',
-      university: 'Đại học Khoa học Tự Nhiên TP.HCM',
-      expertise: 'Phát Triển Ứng dụng Blockchain & Tích hợp AI',
-      image: GiangAva,
-      bio: 'Tư duy logic, phân tích vấn đề từ trải nghiệm người dùng và định hướng ứng dụng Blockchain thực tiễn. Luôn tìm cách kết nối, chia sẻ và lan tỏa giá trị công nghệ đến cộng đồng.',
+      name: 'Ngô Thị Anh Minh',
+      position: 'Chuyên ngành Marketing & Truyền thông',
+      university: 'Đại học Kinh tế - Luật TP.HCM',
+      expertise: 'Phát triển Thương Hiệu & Chiến Lược Tiếp Thị',
+      image: MinhAva,
+      bio: 'Strategic Planner và Vice President tại Marketing UEL Club - Câu lạc bộ học thuật Top 1 UEL <br/> Account Intern tại iSocial Vietnam <br/> Research Collaborator tại Pencil Group',
       social: {
         linkedin: '#',
-        github: '#'
+        twitter: '#'
       }
     },
     {
@@ -32,15 +33,15 @@ const Team: React.FC = () => {
       }
     },
     {
-      name: 'Ngô Thị Anh Minh',
-      position: 'Chuyên ngành Marketing & Truyền thông',
-      university: 'Đại học Kinh tế - Luật TP.HCM',
-      expertise: 'Phát triển Thương Hiệu & Chiến Lược Tiếp Thị',
-      image: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'abcdefghijklmnopqrstuvwxyz',
+      name: 'Nguyễn Ngọc Giang',
+      position: 'Chuyên ngành Kỹ thuật phần mềm',
+      university: 'Đại học Khoa học Tự Nhiên TP.HCM',
+      expertise: 'Phát Triển Ứng dụng Blockchain & Tích hợp AI',
+      image: GiangAva,
+      bio: 'Tư duy logic, phân tích vấn đề từ trải nghiệm người dùng và định hướng ứng dụng Blockchain thực tiễn. Luôn tìm cách kết nối, chia sẻ và lan tỏa giá trị công nghệ đến cộng đồng.',
       social: {
         linkedin: '#',
-        twitter: '#'
+        github: '#'
       }
     },
     {

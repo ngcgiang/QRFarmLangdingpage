@@ -18,19 +18,19 @@ const BusinessModel: React.FC = () => {
       details: ['Gói cảm biến', 'Dịch vụ lắp đặt', 'Phân tích dữ liệu']
     },
     {
+      icon: BarChart3,
+      title: 'Phân Tích AI',
+      description: 'Báo cáo phân tích cao cấp và dịch vụ thông tin thị trường',
+      percentage: '15%',
+      details: ['Dự báo thị trường', 'Dự đoán năng suất', 'Báo cáo tùy chỉnh']
+    },    
+    {
       icon: Coins,
       title: 'Phí Blockchain',
       description: 'Phí giao dịch từ QRChain và hoạt động thị trường NFT',
       percentage: '20%',
       details: ['Giao dịch token', 'Tạo NFT', 'Giao dịch trên sàn']
     },
-    {
-      icon: BarChart3,
-      title: 'Phân Tích AI',
-      description: 'Báo cáo phân tích cao cấp và dịch vụ thông tin thị trường',
-      percentage: '15%',
-      details: ['Dự báo thị trường', 'Dự đoán năng suất', 'Báo cáo tùy chỉnh']
-    }
   ];
 
   return (

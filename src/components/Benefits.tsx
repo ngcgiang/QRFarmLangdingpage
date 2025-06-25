@@ -6,43 +6,37 @@ const Benefits: React.FC = () => {
     {
       icon: TrendingUp,
       title: 'Tăng Năng Suất',
-      description: 'Phân tích AI giúp nông dân, doanh nghiệp tối ưu hóa hoạt động, dẫn đến tăng năng suất cây trồng lên đến 40%.',
-      percentage: '40%',
+      description: 'Phân tích AI giúp nông dân, doanh nghiệp tối ưu hóa hoạt động, dẫn đến tăng lợi nhuận.',
       color: 'text-blue-600'
     },
     {
       icon: Leaf,
       title: 'Canh Tác Bền Vững',
       description: 'Minh bạch giúp người dân nâng cao ý thức canh tác sạch, an toàn và thân thiện với môi trường.',
-      percentage: '60%',
       color: 'text-green-600'
     },
     {
       icon: Users,
       title: 'Niềm Tin Người Tiêu Dùng',
       description: 'Tính minh bạch hoàn toàn trong chuỗi cung ứng xây dựng mối quan hệ bền chặt giữa nông dân và người tiêu dùng.',
-      percentage: '95%',
       color: 'text-purple-600'
     },
     {
       icon: Shield,
       title: 'Ngăn Chặn Gian Lận',
       description: 'Xác minh blockchain loại bỏ sản phẩm giả mạo và đảm bảo thực phẩm chính hãng đến tay người tiêu dùng.',
-      percentage: '99%',
       color: 'text-red-600'
     },
     {
       icon: Clock,
       title: 'Tiết Kiệm Thời Gian',
-      description: 'Quy trình tự động hóa và hợp đồng thông minh giúp giảm thời gian quản lý hành chính lên đến 75%.',
-      percentage: '75%',
+      description: 'Quy trình tự động hóa và hợp đồng thông minh giúp giảm thời gian quản lý hành chính.',
       color: 'text-orange-600'
     },
     {
       icon: DollarSign,
       title: 'Giảm Chi Phí',
       description: 'Tối ưu hóa việc sử dụng tài nguyên và giảm lãng phí dẫn đến tiết kiệm chi phí đáng kể cho nông dân.',
-      percentage: '50%',
       color: 'text-emerald-600'
     }
   ];
@@ -70,9 +64,6 @@ const Benefits: React.FC = () => {
                 <div className={`w-16 h-16 ${benefit.color.replace('text-', 'bg-')}/10 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
                   <benefit.icon className={`w-8 h-8 ${benefit.color}`} />
                 </div>
-                <div className={`text-3xl font-bold ${benefit.color}`}>
-                  +{benefit.percentage}
-                </div>
               </div>
               
               <h3 className="text-xl font-bold text-gray-900 mb-4">{benefit.title}</h3>
@@ -80,10 +71,6 @@ const Benefits: React.FC = () => {
               
               <div className="mt-6 pt-4 border-t border-gray-100">
                 <div className={`w-full bg-gray-200 rounded-full h-2`}>
-                  <div 
-                    className={`h-2 ${benefit.color.replace('text-', 'bg-')} rounded-full transition-all duration-1000`}
-                    style={{ width: benefit.percentage }}
-                  ></div>
                 </div>
               </div>
             </div>
