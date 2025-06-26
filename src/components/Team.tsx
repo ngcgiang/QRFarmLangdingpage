@@ -5,6 +5,11 @@ import GiapAvatar from '../assets/img/TanGiap.png';
 import mrsThuAvatar from '../assets/img/mrsThu.png';
 import GiangAva from '../assets/img/GiangAva1.png';
 import MinhAva from '../assets/img/MinhAva.png';
+import tsonAva from '../assets/img/tsonAva.png';
+import duyAva from '../assets/img/duyAva.png';
+import Duong from '../assets/img/Duong.jpg';
+import Hoang from '../assets/img/Hoang.jpg';
+import Thien from '../assets/img/Thien.jpg';
 
 const Team: React.FC = () => {
   const teamMembers = [
@@ -49,20 +54,20 @@ const Team: React.FC = () => {
       position: 'Chuyên ngành Logistics & Supply Chain',
       university: 'Trường đại học Công Nghiệp TP.HCM',
       expertise: 'Quản Lý Chuỗi Cung Ứng & Vận Hành',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'abcdefghijklmnopqrstuvwxyz',
+        image: duyAva,
+        bio: 'Giữ vai trò Quản Lý Chuỗi Cung Ứng & Vận Hành với kinh nghiệm là sinh viên năm 3 chuyên ngành Logictics và Quản lý chuỗi cung ứng, Ban Chấp hành Hội Sinh viên Khóa VIII trường Đại học Công nghiệp Thành phố Hồ Chí Minh và là Đội trưởng Đội Công tác xã hội Nhiệm kỳ XXI.',
       social: {
         linkedin: '#',
         twitter: '#'
       }
     },
     {
-      name: 'Thái Sơn',
+      name: 'Đoàn Thái Sơn',
       position: 'Chuyên ngành Công nghệ thông tin',
-      university: 'Trường đại học Tôn Đức Thắng',
-      expertise: 'Phát Triển Phần mềm',
-      image: 'https://images.pexels.com/photos/2182975/pexels-photo-2182975.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'abcdefghijklmnopqrstuvwxyz',
+      university: 'Trường đại học Nguyễn Tất Thành TP.HCM',
+      expertise: 'Phát Triển Phần mềm & Ứng dụng',
+      image: tsonAva,
+        bio: 'Lập trình viên web và ứng dụng với tư duy sản phẩm, tập trung vào việc xây dựng trải nghiệm người dùng tinh gọn và hiệu quả. Luôn hướng đến các giải pháp có tính ứng dụng cao, dễ mở rộng và phù hợp với thực tế kinh doanh.',
       social: {
         linkedin: '#',
         twitter: '#'
@@ -151,10 +156,112 @@ const Team: React.FC = () => {
                   className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                 />
                 <h4 className="text-xl font-bold text-white mb-2">ThS. Nguyễn Thị Hoài Thu</h4>
-                <p className="text-green-200 mb-1">abcdefghijklmnopqrstuvwxyz</p>
-                <p className="text-green-100 text-sm">abcdefghijklmnopqrstuvwxyz</p>
+                <p className="text-green-200 mb-1">Giảng viên giàu kinh nghiệm với hơn 15 năm giảng dạy tại các trường đại học lớn, chuyên sâu về hệ thống thông tin, công nghệ số và blockchain. Đồng thời là nhà nghiên cứu ứng dụng, đã chủ nhiệm và tham gia nhiều đề tài khoa học thực tiễn. Có năng lực xuất bản học liệu chuyên ngành và kết hợp tốt giữa lý thuyết – thực tiễn.</p>
+               
               </div>
             </div>
+        </div>
+        {/* Support Team */}
+        <div className="mt-16">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Đội Ngũ Hỗ Trợ
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Đội ngũ hỗ trợ tận tâm, luôn sẵn sàng đồng hành và giải đáp mọi thắc mắc của khách hàng, góp phần tạo nên thành công cho dự án.
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-center -mx-4">
+            {/* Ví dụ 2 thành viên hỗ trợ, bạn có thể thêm hoặc sửa thông tin */}
+            {[
+              {
+                name: 'Lê Thanh Thiện',
+                position: 'Chuyên nghành Công nghệ thông tin',
+                university: 'Trường đại học Nguyễn Tất Thành TP.HCM',
+                expertise: 'Kiểm thử phần mềm',
+                image: Thien,
+                bio: 'Kỹ sư kiểm thử phần mềm với kinh nghiệm xây dựng test case, kiểm thử thủ công và tự động. Thành thạo Python, Selenium, và quy trình kiểm thử trong môi trường Agile. Kỹ năng phân tích tốt, cẩn thận và có tinh thần học hỏi cao.',
+                social: {
+                  linkedin: '#',
+                  twitter: '#'
+                }
+              },
+              {
+                name: 'Trần Phạm Hải Dương',
+                position: 'Nghiên cứu sinh',
+                university: 'Đại học Bách Khoa TP.HCM',
+                expertise: 'Xử lý tín hiệu cảm biến, Làm việc với cảm biến nhiệt, phân tích dữ liệu thực nghiệm',
+                image: Duong,
+                bio: 'Nghiên cứu sinh tại ĐH Bách Khoa TP.HCM với kinh nghiệm thực hành và nghiên cứu trong lĩnh vực điều khiển và tự động hóa. Thành thạo lập trình hệ thống điều khiển robot, xử lý dữ liệu cảm biến, và xây dựng giao diện điều khiển. Đã trình bày nghiên cứu tại các hội nghị học thuật uy tín như AETA 2022 và BK 2024.',
+                social: {
+                  linkedin: '#',
+                  github: '#'
+                }
+              },
+              {
+                name: 'Bùi Khánh Hoàng',
+                position: 'Kỹ sư IoT',
+                university: 'Đại học Bách Khoa TP.HCM',
+                expertise: 'Kiểm thử hệ thống nhúng, phát triển ứng dụng IoT, xử lý ảnh thời gian thực và lập trình đa nền tảng trên môi trường Linux.',
+                image: Hoang,
+                bio: 'Kỹ sư phần mềm nhúng với kinh nghiệm thực tập tại Ampere Computing, chuyên về kiểm thử hệ thống, benchmark phần cứng và phát triển script tự động hóa. Đã triển khai nhiều dự án IoT ứng dụng thực tế, kết hợp xử lý ảnh và học máy với các nền tảng như ESP32, Jetson Nano, và Raspberry Pi. Thành thạo Python, C/C++, Linux, FreeRTOS và backend Flask API.',
+                social: {
+                  linkedin: '#',
+                  github: '#'
+                }
+              }
+            ].map((member, index) => (
+              <div
+                key={index}
+                className="w-full px-4 mb-8 sm:w-full md:w-1/2 lg:w-1/3"
+              >
+                <div className="h-full bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                  <div className="text-center mb-6">
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                    />
+                    <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
+                    <p className="text-green-600 font-semibold mb-2">{member.position}</p>
+                    <p className="text-sm text-gray-600 mb-1">{member.university}</p>
+                    <p className="text-sm font-medium text-blue-600">{member.expertise}</p>
+                  </div>
+                  <div
+                    className="text-gray-600 text-sm text-center mb-6 leading-relaxed"
+                  >
+                    {member.bio}
+                  </div>
+                  <div className="flex justify-center space-x-4">
+                    {member.social.linkedin && (
+                      <a
+                        href={member.social.linkedin}
+                        className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center hover:bg-blue-200 transition-colors duration-300"
+                      >
+                        <Linkedin className="w-5 h-5 text-blue-600" />
+                      </a>
+                    )}
+                    {member.social.github && (
+                      <a
+                        href={member.social.github}
+                        className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-300"
+                      >
+                        <Github className="w-5 h-5 text-gray-600" />
+                      </a>
+                    )}
+                    {member.social.twitter && (
+                      <a
+                        href={member.social.twitter}
+                        className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center hover:bg-blue-200 transition-colors duration-300"
+                      >
+                        <Twitter className="w-5 h-5 text-blue-600" />
+                      </a>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
