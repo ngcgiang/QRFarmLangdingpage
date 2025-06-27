@@ -7,25 +7,25 @@ const QRChainEcosystem: React.FC = () => {
       icon: QrCode,
       title: 'Quét & Nhận Thưởng',
       description: 'Người tiêu dùng có thể quét mã QR trên sản phẩm để xác minh nguồn gốc và nhận phần thưởng token từ hệ thống.',
-      benefits: ['Xác minh ngay lập tức', 'Phần thưởng token', 'Lịch sử sản phẩm', 'Đảm bảo chất lượng']
+      benefits: ['Xác minh ngay lập tức', 'Phần thưởng token', 'Lịch sử sản phẩm']
     },
     {
       icon: Coins,
-      title: ' Tích lũy Điểm & Đầu tư Cộng Đồng',
+      title: 'Tích lũy Điểm & Đầu tư Cộng Đồng',
       description: 'Người tiêu dùng có thể tích lũy điểm khi tham gia vào hệ sinh thái và hỗ trợ nông dân thông qua việc đặt mua trước sản phẩm mùa vụ.',
-      benefits: ['Thu nhập thụ động', 'Lợi ích từ cộng đồng']
+        benefits: ['Thu nhập thụ động', 'Lợi ích từ cộng đồng']
     },
     {
       icon: Crown,
-      title: 'Mô hình Đồng hành Mùa vụ (Hỗ trợ nông dân)',
-      description: 'Mô hình này cho phép nông dân huy động vốn từ người tiêu dùng trước mùa vụ để hỗ trợ quy trình sản xuất mà không phải chờ đến khi thu hoạch.',
-      benefits: ['Tài trợ trước mùa vụ', 'Quyền mua trước']
+        title: 'Mô hình Đồng hành Mùa vụ (Hỗ trợ nông dân)',
+        description: 'Mô hình này cho phép nông dân huy động vốn từ người tiêu dùng trước mùa vụ để hỗ trợ quy trình sản xuất mà không phải chờ đến khi thu hoạch.',
+        benefits: ['Tài trợ trước mùa vụ:', 'Quyền mua trước']
     },
     {
       icon: Users,
-      title: 'Quản lý cộng đồng và phân quyền (Quản trị minh bạch)',
-      description: 'Mô hình phân quyền cộng đồng sẽ giúp tất cả các bên tham gia có thể đóng góp và đưa ra quyết định trong hệ sinh thái, từ sản xuất đến tiêu thụ.',
-      benefits: ['Quyết định minh bạch', 'Phát triển bền vững']
+        title: 'Quản lý cộng đồng và phân quyền (Quản trị minh bạch)',
+        description: 'Mô hình phân quyền cộng đồng sẽ giúp tất cả các bên tham gia có thể đóng góp và đưa ra quyết định trong hệ sinh thái, từ sản xuất đến tiêu thụ.',
+        benefits: ['Quyết định minh bạch', 'Phát triển bền vững']
     }
   ];
 
