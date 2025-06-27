@@ -4,63 +4,75 @@ import { Calendar, CheckCircle, Clock, Star } from 'lucide-react';
 const Roadmap: React.FC = () => {
   const milestones = [
     {
-      year: '2025',
-      quarter: 'Q3',
-      title: 'Hoàn thiện MVP và tích hợp IoT',
-      status: 'in-progress',
+      year: '2026',
+      quarter: 'Q1-Q2',
+      title: 'Ra Mắt MVP & Chương Trình Thử Nghiệm',
+      status: 'completed',
       items: [
         'Phát triển nền tảng cốt lõi',
         'Hệ thống tạo mã QR',
         'Bảng điều khiển phân tích cơ bản',
-        'Hệ thống IoT cơ bản',
+        'Thử nghiệm với 100 trang trại tại Việt Nam'
       ]
     },
     {
-      year: '2025',
-      quarter: 'Q4',
-      title: 'Thử nghiệm thực tế',
-      status: 'upcoming',
+      year: '2026',
+      quarter: 'Q3-Q4',
+      title: 'Testnet & Tích Hợp IoT',
+      status: 'in-progress',
       items: [
-        'Đào tạo & hướng dẫn nông dân',
+        'Ra mắt testnet QRChain',
         'Tích hợp cảm biến IoT',
         'Phát hành ứng dụng di động',
-        'Thử nghiệm với 100 trang trại tại Tây Nguyên'
+        'Mở rộng đến 1.000 trang trại'
       ]
     },
     {
-      year: '2026',
-      quarter: 'Q1',
-      title: 'Ra Mắt QRChain Testnet & Mở rộng',
-      status: 'upcoming',
-      items: [
-        'Vận hành hệ thống Tokenomics',
-        'Thử nghiệm giao dịch trên Testnet',
-        'Phát triển hệ thống ví & dashboard QRChain',
-        'Đặt nền móng cho việc ra mắt Mainet'
-      ]
-    },
-    {
-      year: '2026',
-      quarter: 'Q2',
-      title: 'Đánh giá - Hoàn thiện - Nhân rộng',
-      status: 'upcoming',
-      items: [
-        'Đánh giá kết quả giai đoạn thử nghiệm',
-        'Cải tiến và hoàn thiện sản phẩm',
-        'Mở rộng quy mô người dùng',
-        'Chuẩn bị cho bước scale lớn hơn (Toàn quốc)'
-      ]
-    },
-    {
-      year: '2026-2033',
+      year: '2027-2028',
       quarter: 'Đa năm',
-      title: 'Mở Rộng toàn quốc',
+      title: 'Ra Mắt NFT & Mainnet',
+      status: 'upcoming',
+      items: [
+        'Nền tảng NFT cho mùa vụ',
+        'Triển khai mainnet QRChain',
+        'Sự kiện phát hành token',
+        'Ra mắt sàn giao dịch'
+      ]
+    },
+    {
+      year: '2028-2030',
+      quarter: 'Đa năm',
+      title: 'Triển Khai DAO',
+      status: 'upcoming',
+      items: [
+        'Phân phối token quản trị',
+        'Cơ chế bỏ phiếu DAO',
+        'Đề xuất từ cộng đồng',
+        'Ra quyết định phi tập trung'
+      ]
+    },
+    {
+      year: '2030-2040',
+      quarter: 'Đa năm',
+      title: 'Mở Rộng ASEAN',
       status: 'planned',
       items: [
-        'Triển khai tại các tỉnh có thế mạnh nông sản',
-        'Hợp tác với hệ thống siêu thị và kênh phân phối nội địa',
-        'Chuẩn hóa hệ thống theo tiêu chuẩn quốc gia',
-        'Tăng trưởng mạnh về người dùng & hợp tác xã'
+        'Hợp tác khu vực',
+        'Hỗ trợ đa ngôn ngữ',
+        'Tuân thủ quy định địa phương',
+        'Kết nối hơn 10 triệu nông dân'
+      ]
+    },
+    {
+      year: '2040-2050',
+      quarter: 'Dài hạn',
+      title: 'Quy Mô Toàn Cầu',
+      status: 'planned',
+      items: [
+        'Triển khai toàn cầu',
+        'Dự đoán bằng AI',
+        'Tích hợp tín chỉ carbon',
+        'Dẫn đầu nông nghiệp bền vững'
       ]
     }
   ];
@@ -161,21 +173,21 @@ const Roadmap: React.FC = () => {
         {/* Key Metrics */}
         <div className="mt-16 bg-gradient-to-r from-green-600 to-emerald-600 rounded-3xl p-12">
           <h3 className="text-3xl font-bold text-white text-center mb-12">
-            Mục Tiêu Tầm Nhìn 2040
+            Mục Tiêu Tầm Nhìn 2050
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">7M+</div>
-              <div className="text-green-200">Hộ nông nghiệp Kết Nối</div>
+              <div className="text-4xl font-bold text-white mb-2">100M+</div>
+              <div className="text-green-200">Nông Dân Kết Nối</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">$150B+</div>
+              <div className="text-4xl font-bold text-white mb-2">$1T+</div>
               <div className="text-green-200">Giá Trị Nông Nghiệp</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white mb-2">34</div>
-              <div className="text-green-200">Tỉnh được triển khai</div>
+              <div className="text-4xl font-bold text-white mb-2">150+</div>
+              <div className="text-green-200">Quốc Gia</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-white mb-2">Zero</div>
