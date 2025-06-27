@@ -33,9 +33,7 @@ const About: React.FC = () => {
             Giới Thiệu Về QRFarm
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            QRFarm đang tiên phong trong tương lai của nông nghiệp bằng cách tích hợp công nghệ mã QR, 
-            trí tuệ nhân tạo, xác minh blockchain và xác thực sản phẩm dựa trên NFT 
-            để tạo ra một hệ sinh thái số toàn diện cho chuỗi cung ứng thực phẩm trong nước nói riêng và toàn cầu nói chúng.
+            QRFarm đang tiên phong trong tương lai của nông nghiệp bằng cách tích hợp công nghệ hàng đầu mã QR, trí tuệ nhân tạo, IoT, xác minh blockchain và mô hình đồng hành mùa vụ để tạo ra một hệ sinh thái số toàn diện cho chuỗi cung ứng thực phẩm trong nước nói riêng và toàn cầu nói chung.
           </p>
         </div>
 

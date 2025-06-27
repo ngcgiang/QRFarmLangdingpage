@@ -6,26 +6,26 @@ const QRChainEcosystem: React.FC = () => {
     {
       icon: QrCode,
       title: 'Quét & Nhận Thưởng',
-      description: 'Người tiêu dùng quét mã QR trên sản phẩm để xác minh tính xác thực và nhận token QRChain làm phần thưởng.',
+      description: 'Người tiêu dùng có thể quét mã QR trên sản phẩm để xác minh nguồn gốc và nhận phần thưởng token từ hệ thống.',
       benefits: ['Xác minh ngay lập tức', 'Phần thưởng token', 'Lịch sử sản phẩm', 'Đảm bảo chất lượng']
     },
     {
       icon: Coins,
-      title: 'Staking Token',
-      description: 'Stake token QRChain để kiếm thu nhập thụ động và tham gia vào các quyết định quản trị nền tảng.',
-      benefits: ['Thu nhập thụ động', 'Quyền quản trị', 'Lợi ích nền tảng', 'Giá trị dài hạn']
+      title: ' Tích lũy Điểm & Đầu tư Cộng Đồng',
+      description: 'Người tiêu dùng có thể tích lũy điểm khi tham gia vào hệ sinh thái và hỗ trợ nông dân thông qua việc đặt mua trước sản phẩm mùa vụ.',
+      benefits: ['Thu nhập thụ động', 'Lợi ích từ cộng đồng']
     },
     {
       icon: Crown,
-      title: 'NFT Mùa Vụ',
-      description: 'Nông dân tạo NFT đại diện cho các mùa vụ, cho phép gọi vốn cộng đồng và bán trước cho người tiêu dùng.',
-      benefits: ['Tài trợ nông dân', 'Quyền mua trước', 'Sở hữu độc đáo', 'Phần thưởng theo mùa']
+      title: 'Mô hình Đồng hành Mùa vụ (Hỗ trợ nông dân)',
+      description: 'Mô hình này cho phép nông dân huy động vốn từ người tiêu dùng trước mùa vụ để hỗ trợ quy trình sản xuất mà không phải chờ đến khi thu hoạch.',
+      benefits: ['Tài trợ trước mùa vụ', 'Quyền mua trước']
     },
     {
       icon: Users,
-      title: 'Quản Trị DAO',
-      description: 'Người nắm giữ token tham gia vào quản trị phi tập trung, bỏ phiếu cho các cải tiến và chính sách nền tảng.',
-      benefits: ['Quyết định dân chủ', 'Phát triển nền tảng', 'Tiếng nói cộng đồng', 'Bỏ phiếu minh bạch']
+      title: 'Quản lý cộng đồng và phân quyền (Quản trị minh bạch)',
+      description: 'Mô hình phân quyền cộng đồng sẽ giúp tất cả các bên tham gia có thể đóng góp và đưa ra quyết định trong hệ sinh thái, từ sản xuất đến tiêu thụ.',
+      benefits: ['Quyết định minh bạch', 'Phát triển bền vững']
     }
   ];
 
