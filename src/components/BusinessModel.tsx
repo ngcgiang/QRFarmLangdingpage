@@ -8,7 +8,7 @@ const BusinessModel: React.FC = () => {
       title: 'Đăng Ký Dịch Vụ SaaS',
       description: 'Gói đăng ký hàng tháng/năm cho nông dân và doanh nghiệp nông nghiệp',
       percentage: '40%',
-      details: ['Cơ bản: 5.990.000VNĐ/tháng', 'Chuyên nghiệp: 9.990.000VNĐ/tháng', 'Doanh nghiệp: 50-80 triệu VNĐ/tháng']
+      details: ['Cơ bản: 779.000vnđ/tháng', 'Chuyên nghiệp: 2.599.000vnđ/tháng', 'Doanh nghiệp: Tùy chỉnh']
     },
     {
       icon: Wifi,
@@ -78,7 +78,7 @@ const BusinessModel: React.FC = () => {
         {/* Business Flow Diagram */}
         <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-3xl p-12">
           <h3 className="text-3xl font-bold text-white text-center mb-12">
-            Quy Trình Tạo Giá Trị
+                      Quy trình Hoạt Động
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
@@ -86,8 +86,8 @@ const BusinessModel: React.FC = () => {
               <div className="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">1</span>
               </div>
-              <h4 className="text-lg font-bold text-white mb-2">Nông Dân Tham Gia</h4>
-              <p className="text-green-100 text-sm">Đăng ký nền tảng</p>
+                          <h4 className="text-lg font-bold text-white mb-2">Thu thập dữ liệu IoT tại kho</h4>
+                          <p className="text-green-100 text-sm">Cảm biến và thiết bị IoT ghi nhận thông tin nhiệt độ, độ ẩm, vị trí,… từ nông sản tại kho.</p>
             </div>
             
             <ArrowRight className="w-8 h-8 text-white mx-auto hidden md:block" />
@@ -96,8 +96,8 @@ const BusinessModel: React.FC = () => {
               <div className="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">2</span>
               </div>
-              <h4 className="text-lg font-bold text-white mb-2">Thu Thập Dữ Liệu</h4>
-              <p className="text-green-100 text-sm">IoT & nhập liệu thủ công</p>
+                          <h4 className="text-lg font-bold text-white mb-2">Tạo mã QR</h4>
+                          <p className="text-green-100 text-sm">Mỗi sản phẩm được gắn một mã QR chứa thông tin nhận dạng duy nhất.</p>
             </div>
             
             <ArrowRight className="w-8 h-8 text-white mx-auto hidden md:block" />
@@ -106,8 +106,8 @@ const BusinessModel: React.FC = () => {
               <div className="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">3</span>
               </div>
-              <h4 className="text-lg font-bold text-white mb-2">Xử Lý AI</h4>
-              <p className="text-green-100 text-sm">Phân tích & thông tin chi tiết</p>
+                          <h4 className="text-lg font-bold text-white mb-2">Ghi nhận dữ liệu lên Blockchain</h4>
+                          <p className="text-green-100 text-sm">Thông tin sản phẩm được ghi lại minh bạch, không thể chỉnh sửa.</p>
             </div>
             
             <ArrowRight className="w-8 h-8 text-white mx-auto hidden md:block" />
@@ -116,9 +116,19 @@ const BusinessModel: React.FC = () => {
               <div className="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">4</span>
               </div>
-              <h4 className="text-lg font-bold text-white mb-2">Tạo Giá Trị</h4>
-              <p className="text-green-100 text-sm">Tạo doanh thu</p>
+                          <h4 className="text-lg font-bold text-white mb-2">Người dùng quét QR và tra cứu</h4>
+                          <p className="text-green-100 text-sm">Người tiêu dùng quét mã QR để xem thông tin truy xuất nguồn gốc sản phẩm.</p>
+                      </div>
+            <ArrowRight className="w-8 h-8 text-white mx-auto hidden md:block" />
+
+            <div className="text-center">
+                <div className="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl font-bold text-white">5</span>
+                </div>
+                          <h4 className="text-lg font-bold text-white mb-2">AI phân tích dữ liệu và xu hướng</h4>
+                          <p className="text-green-100 text-sm">Hệ thống AI phân tích dữ liệu chuỗi cung ứng, giúp dự báo nhu cầu và tối ưu sản xuất.</p>
             </div>
+           
           </div>
         </div>
       </div>
