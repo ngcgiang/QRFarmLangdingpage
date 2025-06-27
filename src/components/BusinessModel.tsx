@@ -8,7 +8,7 @@ const BusinessModel: React.FC = () => {
       title: 'Đăng Ký Dịch Vụ SaaS',
       description: 'Gói đăng ký hàng tháng/năm cho nông dân và doanh nghiệp nông nghiệp',
       percentage: '40%',
-      details: ['Cơ bản: 779.000vnđ/tháng', 'Chuyên nghiệp: 2.599.000vnđ/tháng', 'Doanh nghiệp: Tùy chỉnh']
+      details: ['Cơ bản: 5.990.000VNĐ/tháng', 'Chuyên nghiệp: 9.990.000VNĐ/tháng', 'Doanh nghiệp: 50-80 triệu VNĐ/tháng']
     },
     {
       icon: Wifi,

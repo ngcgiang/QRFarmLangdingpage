@@ -106,32 +106,6 @@ const Impact: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* Global Impact Stats */}
-        <div className="mt-16 bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-12">
-          <h3 className="text-3xl font-bold text-white text-center mb-12">
-            Tác Động Toàn Cầu đến năm 2050
-          </h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-green-400 mb-2">10M+</div>
-              <div className="text-gray-300">Nông Dân Được Trao Quyền</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-blue-400 mb-2">50B+</div>
-              <div className="text-gray-300">Sản Phẩm Được Truy Xuất</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-purple-400 mb-2">$100B+</div>
-              <div className="text-gray-300">Giá Trị Được Tạo Ra</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-orange-400 mb-2">100+</div>
-              <div className="text-gray-300">Quốc Gia Phục Vụ</div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

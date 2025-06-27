@@ -19,7 +19,7 @@ const MarketProblems: React.FC = () => {
       icon: DollarSign,
       title: 'Bất Bình Đẳng Giá Cả',
       description: 'Nông dân nhận giá không công bằng do bất đối xứng thông tin và sự can thiệp của trung gian.',
-      impact: 'Nông dân chỉ nhận được 15-20% giá bán lẻ cuối cùng'
+      impact: 'Nông dân chỉ nhận được 12-20% giá bán lẻ cuối cùng'
     },
     {
       icon: TrendingDown,
