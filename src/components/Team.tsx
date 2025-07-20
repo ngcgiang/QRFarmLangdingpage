@@ -2,24 +2,22 @@ import React from 'react';
 import { Linkedin, Github, Twitter } from 'lucide-react';
 // Import your image
 import GiapAvatar from '../assets/img/TanGiap.png';
-import mrsThuAvatar from '../assets/img/mrsThu.png';
 import GiangAva from '../assets/img/GiangAva1.png';
-import MinhAva from '../assets/img/MinhAva.png';
 import tsonAva from '../assets/img/tsonAva.png';
-import duyAva from '../assets/img/duyAva.png';
 import Duong from '../assets/img/Duong.jpg';
 import Hoang from '../assets/img/Hoang.jpg';
 import Thien from '../assets/img/Thien.jpg';
+import UyenAva from '../assets/img/UyenAva.jpg';
 
 const Team: React.FC = () => {
   const teamMembers = [
     {
-      name: 'Ngô Thị Anh Minh',
-      position: 'Chuyên ngành Marketing & Truyền thông',
-          university: 'Trường Đại học Kinh tế Luật, ĐHQG-HCM.',
+      name: 'Hồ Duy Uyên',
+      position: 'Chuyên ngành Kinh doanh Quốc tế',
+          university: 'Đại học Kinh tế TP.HCM.',
       expertise: 'Phát triển Thương Hiệu & Chiến Lược Tiếp Thị',
-      image: MinhAva,
-      bio: 'Strategic Planner và Vice President tại Marketing UEL Club - Câu lạc bộ học thuật Top 1 UEL <br/> Account Intern tại iSocial Vietnam <br/> Research Collaborator tại Pencil Group',
+      image: UyenAva,
+      bio: 'Thành viên Ban Thư ký Hội Sinh viên Khoa Kinh doanh Quốc tế – Marketing.<br/>Ủy viên Ban Thư ký LCH Sinh viên Khoa Kinh doanh Quốc tế<br/>',
       social: {
         linkedin: '#',
         twitter: '#'
@@ -50,12 +48,12 @@ const Team: React.FC = () => {
       }
     },
     {
-      name: 'Phạm Thanh Duy',
-      position: 'Chuyên ngành Logistics & Supply Chain',
-        university: 'Trường Đại học Công nghiệp TP.HCM.',
-      expertise: 'Quản Lý Chuỗi Cung Ứng & Vận Hành',
-        image: duyAva,
-        bio: 'Giữ vai trò Quản Lý Chuỗi Cung Ứng & Vận Hành với kinh nghiệm là sinh viên năm 3 chuyên ngành Logictics và Quản lý chuỗi cung ứng.<br/>Ban Chấp hành Hội Sinh viên Khóa VIII trường Đại học Công nghiệp Thành phố Hồ Chí Minh.<br/>Đội trưởng Đội Công tác xã hội Nhiệm kỳ XXI.',
+      name: 'Lê Thanh Thiện',
+      position: 'Chuyên nghành Công nghệ thông tin',
+        university: 'Trường Đại học Nguyễn Tất Thành.',
+      expertise: 'Kiểm thử phần mềm',
+        image: Thien,
+        bio: 'Kỹ sư kiểm thử phần mềm với kinh nghiệm xây dựng test case, kiểm thử thủ công và tự động.<br />Thành thạo Python, Selenium, và quy trình kiểm thử trong môi trường Agile.<br />Kỹ năng phân tích tốt, cẩn thận và có tinh thần học hỏi cao.',
       social: {
         linkedin: '#',
         twitter: '#'
@@ -143,24 +141,6 @@ const Team: React.FC = () => {
           ))}
         </div>
 
-              {/* Advisory Board */}
-              <div className="mt-16 bg-gradient-to-r from-green-600 to-emerald-600 rounded-3xl p-12">
-                  <h3 className="text-3xl font-bold text-white text-center mb-8">
-                      Hội Đồng Cố Vấn
-                  </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                      <div className="text-center mx-auto col-span-1 md:col-span-3 max-w-md">
-                          <img
-                              src={mrsThuAvatar}
-                              alt="ThS. Nguyễn Thị Hoài Thu"
-                              className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-                          />
-                          <h4 className="text-xl font-bold text-white mb-2">ThS. Nguyễn Thị Hoài Thu</h4>
-                          <p className="text-green-200 mb-1">Giảng viên giàu kinh nghiệm với hơn 15 năm giảng dạy tại các trường đại học lớn, chuyên sâu về hệ thống thông tin, công nghệ số và blockchain. Đồng thời là nhà nghiên cứu ứng dụng, đã chủ nhiệm và tham gia nhiều đề tài khoa học thực tiễn. Có năng lực xuất bản học liệu chuyên ngành và kết hợp tốt giữa lý thuyết – thực tiễn.</p>
-
-                      </div>
-                  </div>
-              </div>
           </div>
           {/* Support Team */}
           <div className="mt-16">
@@ -174,18 +154,7 @@ const Team: React.FC = () => {
               </div>
               <div className="flex flex-wrap justify-center -mx-4">
                   {[
-                      {
-                          name: 'Lê Thanh Thiện',
-                          position: 'Chuyên nghành Công nghệ thông tin',
-                          university: 'Trường đại học Nguyễn Tất Thành.',
-                          expertise: 'Kiểm thử phần mềm',
-                          image: Thien,
-                          bio: 'Kỹ sư kiểm thử phần mềm với kinh nghiệm xây dựng test case, kiểm thử thủ công và tự động.<br />Thành thạo Python, Selenium, và quy trình kiểm thử trong môi trường Agile.<br />Kỹ năng phân tích tốt, cẩn thận và có tinh thần học hỏi cao.',
-                          social: {
-                              linkedin: '#',
-                              twitter: '#',
-                          }
-                      },
+                     
                       {
                           name: 'Trần Phạm Hải Dương',
                           position: 'Nghiên cứu sinh',
@@ -195,7 +164,7 @@ const Team: React.FC = () => {
                           bio: 'Nghiên cứu sinh tại ĐH Bách Khoa TP.HCM với kinh nghiệm thực hành và nghiên cứu trong lĩnh vực điều khiển và tự động hóa.<br />Thành thạo lập trình hệ thống điều khiển robot, xử lý dữ liệu cảm biến, và xây dựng giao diện điều khiển.<br />Đã trình bày nghiên cứu tại các hội nghị học thuật uy tín như AETA 2022 và BK 2024.',
                           social: {
                               linkedin: '#',
-                              github: '#',
+                              twitter: '#',
                           }
                       },
                       {
