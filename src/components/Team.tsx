@@ -17,7 +17,7 @@ const Team: React.FC = () => {
           university: 'Đại học Kinh tế TP.HCM.',
       expertise: 'Phát triển Thương Hiệu & Chiến Lược Tiếp Thị',
       image: UyenAva,
-      bio: 'Thành viên Ban Thư ký Hội Sinh viên Khoa Kinh doanh Quốc tế – Marketing.<br/>Ủy viên Ban Thư ký LCH Sinh viên Khoa Kinh doanh Quốc tế<br/>',
+      bio: 'Ủy viên Ban Thư ký LCH Sinh viên Khoa Kinh doanh Quốc tế',
       social: {
         linkedin: '#',
         twitter: '#'
