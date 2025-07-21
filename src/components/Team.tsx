@@ -8,6 +8,8 @@ import Duong from '../assets/img/Duong.jpg';
 import Hoang from '../assets/img/Hoang.jpg';
 import Thien from '../assets/img/Thien.jpg';
 import UyenAva from '../assets/img/UyenAva.jpg';
+import MinhAva from '../assets/img/MinhAva.png';
+import duyAva from '../assets/img/duyAva.png';
 
 const Team: React.FC = () => {
   const teamMembers = [
@@ -154,7 +156,30 @@ const Team: React.FC = () => {
               </div>
               <div className="flex flex-wrap justify-center -mx-4">
                   {[
-                     
+                      {
+                          name: 'Ngô Thị Anh Minh',
+                          position: 'Chuyên ngành Marketing & Truyền thông',
+                          university: ' Trường Đại học Kinh tế Luật, ĐHQG-HCM.',
+                          expertise: 'Phát triển Thương Hiệu & Chiến Lược Tiếp Thị',
+                          image: MinhAva,
+                          bio: 'Strategic Planner và Vice President tại Marketing UEL Club - Câu lạc bộ học thuật Top 1 UEL <br/> Account Intern tại iSocial Vietnam <br/> Research Collaborator tại Pencil Group.',
+                          social: {
+                              linkedin: '#',
+                              twitter: '#',
+                          }
+                      },
+                       {
+                          name: 'Phạm Thanh Duy',
+                          position: 'Chuyên ngành Logistics & Supply Chain',
+                          university: 'Trường Đại học Công nghiệp TP.HCM.',
+                          expertise: 'Quản Lý Chuỗi Cung Ứng & Vận Hành',
+                          image: duyAva,
+                          bio: 'Giữ vai trò Quản Lý Chuỗi Cung Ứng & Vận Hành với kinh nghiệm là sinh viên năm 3 chuyên ngành Logictics và Quản lý chuỗi cung ứng.<br/>Ban Chấp hành Hội Sinh viên Khóa VIII trường Đại học Công nghiệp Thành phố Hồ Chí Minh.<br/>Đội trưởng Đội Công tác xã hội Nhiệm kỳ XXI.',
+                          social: {
+                              linkedin: '#',
+                              twitter: '#',
+                          }
+                      },
                       {
                           name: 'Trần Phạm Hải Dương',
                           position: 'Nghiên cứu sinh',
@@ -182,7 +207,7 @@ const Team: React.FC = () => {
                   ].map((member, index) => (
                       <div
                           key={index}
-                          className="w-full px-4 mb-8 sm:w-full md:w-1/2 lg:w-1/3"
+                          className="w-full px-4 mb-8 sm:w-full md:w-1/2 lg:w-1/4"
                       >
                           <div className="h-full bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
                               <div className="text-center mb-6">
